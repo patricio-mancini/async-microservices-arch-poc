@@ -1,0 +1,12 @@
+{
+  "name": "@async-msa-poc/types",
+  "type": "module",
+  "main": "./src/index.ts",
+  "version": "1.0.0",
+  "scripts": {
+    "test:unit": "echo \"No tests specified\""
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}

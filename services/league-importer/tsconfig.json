@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@async-msa-poc/constants": ["../../shared/constants/src"],
+      "@async-msa-poc/utils": ["../../shared/utils/src"],
+      "@async-msa-poc/types": ["../../shared/types/src"]
+    },
+    "module": "commonjs",
+    "target": "es2020",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
